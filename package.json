@@ -1,0 +1,24 @@
+{
+  "name": "chain-promise-data",
+  "version": "0.1.0",
+  "description": "The purpose of this utility is to chain data from a chain of promises, into one custom object that looks the way you want it.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^20.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanderzon/chain-promise-data.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fanderzon/chain-promise-data/issues"
+  },
+  "homepage": "https://github.com/fanderzon/chain-promise-data#readme"
+}
