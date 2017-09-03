@@ -18,6 +18,16 @@ describe('chainPromiseData', () => {
       .then(data => {
         expect(data.userId).toBe(user.id);
         expect(data.userName).toBe(user.name);
-      })
+      });
   });
+  it('Should apply a filter array if provided', () => {
+    chainPromiseData(
+      createUser,
+      ['name']
+    )()
+      .then(data => {
+        expect(data.id).toBeUndefined();
+        expect(data.name).toBe(user.name);
+      });
+  })
 });
